@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SampleIOSPSDK"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Sample SDK to Show Log Through SDK For Learning Purpose. Create Private Repo And Publish It in Cocopapods"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/mncvictorsukarno/sample_ios_sdk_framework.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/mncvictorsukarno/sample_ios_sdk_framework.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SamplePSDK.framework/Headers/*.h"
+  spec.source_files  = "SamplePSDK.framework"
   # spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "SamplePSDK/*.h"
