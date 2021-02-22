@@ -62,8 +62,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -88,11 +88,12 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  spec.source_files  = "SamplePSDK.framework"
+  
+  spec.vendored_frameworks = "SamplePSDK.framework"
+  # spec.source_files  = "SamplePSDK.framework"
   # spec.exclude_files = "Classes/Exclude"
 
-  #spec.public_header_files = "SamplePSDK/*.h"
+  # spec.public_header_files = "SamplePSDK/Headers/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
