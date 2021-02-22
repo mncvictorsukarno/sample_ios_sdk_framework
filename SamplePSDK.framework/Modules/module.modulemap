@@ -1,0 +1,6 @@
+framework module SamplePSDK {
+  umbrella header "SamplePSDK.h"
+
+  export *
+  module * { export * }
+}
